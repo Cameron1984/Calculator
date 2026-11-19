@@ -1,7 +1,7 @@
 ============================= test session starts ==============================
-platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /opt/python-venv/sccm-4910/bin/python3
+platform darwin -- Python 3.14.5, pytest-9.2.0, pluggy-1.7.0 -- /Volumes/aldridgc/calculator/.venv/bin/python3
 cachedir: .pytest_cache
-rootdir: /home/aldridgc/h-drive/calculator
+rootdir: /Volumes/aldridgc/calculator
 collecting ... collected 6 items
 
 test_batch_calculator.py::test_process_calculation FAILED                [ 16%]
@@ -41,4 +41,4 @@ E       NotImplementedError: Complete process_calculation for the coursework
 batch_calculator.py:22: NotImplementedError
 =========================== short test summary info ============================
 FAILED test_batch_calculator.py::test_process_calculation - NotImplementedErr...
-========================= 1 failed, 5 passed in 0.07s ==========================
+========================= 1 failed, 5 passed in 0.79s ==========================
