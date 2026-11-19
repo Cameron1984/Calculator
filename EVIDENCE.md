@@ -16,8 +16,22 @@ submit the final CI run as a separate PDF or screenshot.
 
 ## 1. Starting point and Git review
 - Starting commit: commit ae237cc5a8c957c216a0ae80af9e0110927e8718
-- Reused lab files, tests and examples: [identify and acknowledge] 
+
+- Reused lab files, tests and examples: 
+    - Files reused from labs:
+        - calculator.py - contains 4 functions to add, subtract, multiply, divide
+                          and return the result
+        - test_calculator.py - contains 4 pytests, one for each operation, tests pass
+                              if expected result of operation is asserted
+        - check.sh - bash script to run calculator quality gate
+        - run.sh - bash script to run calculator.py
+        - REQUIREMENTS.md - simple criteria for initial calculator functionality
+        - README.md - gives run instructions and other project information
+        - requirements-dev.txt - contains packages required to be installed to run calculator
+        - .gitigonre - contains files to be ingored by git
+
 - Feature branch and PR: [name, URL and saved PR file in evidence/]
+
 - Self-review: [what you checked in the diff and the outcome]
 
 ## 2. Test failure, diagnosis and fix
