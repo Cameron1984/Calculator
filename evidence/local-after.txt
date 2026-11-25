@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.5, pytest-9.2.0, pluggy-1.7.0 -- /Volumes/aldridgc/calculator/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Volumes/aldridgc/calculator
+collecting ... collected 6 items
+
+test_batch_calculator.py::test_process_calculation PASSED                [ 16%]
+test_calculator.py::test_add PASSED                                      [ 33%]
+test_calculator.py::test_divide PASSED                                   [ 50%]
+test_calculator.py::test_subtract PASSED                                 [ 66%]
+test_calculator.py::test_multiply PASSED                                 [ 83%]
+test_calculator.py::test_zero_multiplication PASSED                      [100%]
+
+============================== 6 passed in 0.91s ===============================
