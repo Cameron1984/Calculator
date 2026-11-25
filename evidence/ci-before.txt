@@ -1,0 +1,5 @@
+batch_calculator.py:22: NotImplementedError
+=========================== short test summary info ============================
+FAILED test_batch_calculator.py::test_process_calculation - NotImplementedError: Complete process_calculation for the coursework
+========================= 1 failed, 5 passed in 0.03s ==========================
+Error: Process completed with exit code 1.
